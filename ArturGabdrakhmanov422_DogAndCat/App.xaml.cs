@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ArturGabdrakhmanov422_DogAndCat.Components;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
@@ -13,5 +14,6 @@ namespace ArturGabdrakhmanov422_DogAndCat
     /// </summary>
     public partial class App : Application
     {
+        public static DogsPhotoDB222104Entities db = new DogsPhotoDB222104Entities();
     }
 }

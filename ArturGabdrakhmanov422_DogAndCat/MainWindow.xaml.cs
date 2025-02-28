@@ -23,7 +23,7 @@ namespace ArturGabdrakhmanov422_DogAndCat
         public MainWindow()
         {
             InitializeComponent();
-
+            MainFrame.Navigate(new AuthPage());
         }
     }
 }
