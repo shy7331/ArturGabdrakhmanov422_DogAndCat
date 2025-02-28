@@ -23,6 +23,7 @@ namespace ArturGabdrakhmanov422_DogAndCat
         public MainWindow()
         {
             InitializeComponent();
+
         }
     }
 }
